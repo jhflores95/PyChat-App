@@ -31,10 +31,10 @@ main.title("PyChat App")
 
 messages_frame = tkinter.Frame(main)
 my_msg = tkinter.StringVar()    # Store the value from the input field
-my_msg.set("Type here")
+my_msg.set("Enter text here")
 scrollbar = tkinter.Scrollbar(messages_frame)   # Enables navigation through past messages
 
-msg_list = tkinter.Listbox(messages_frame, height=15, width=70, yscrollcommand=scrollbar.set)
+msg_list = tkinter.Listbox(messages_frame, height=15, width=70, yscrollcommand=scrollbar.set, background = "white")
 scrollbar.pack(side=tkinter.RIGHT, fill=tkinter.Y)
 msg_list.pack(side=tkinter.LEFT, fill=tkinter.BOTH)
 msg_list.pack()

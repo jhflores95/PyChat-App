@@ -5,7 +5,7 @@ A chat environment built with Python using the Tkinter library.
 1. Open 'Command Prompt' (Terminal on MacOS) and change to directory with file 'chatserver.py'
 2. Enter "python chatserver.py" 
 
-N.B. The host is left blank to support any address and the port is 33000 by default -- if 33000 is not open on your router please modify accordingly)
+N.B. The host is left blank to support any address and the port is 33000 by default -- if 33000 is not open on your router please modify code accordingly)
 
 ## How to run and connect client
 1. Open 'Command Prompt' (Terminal on MacOS) and change to directory with file 'chatui.py'
